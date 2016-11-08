@@ -4,7 +4,7 @@ var path = require('path');
 var _ = require('macaca-utils');
 var xml2map = require('xml2map');
 
-var platform = process.env.platform || 'iOS';
+var platform = process.env.platform || 'Android';
 platform = platform.toLowerCase();
 
 var iOSOpts = {
