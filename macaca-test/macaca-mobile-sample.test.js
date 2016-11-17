@@ -17,6 +17,7 @@ var iOSOpts = {
 
 var androidOpts = {
   platformName: 'Android',
+  udid:'32c3e283',
   //package: 'com.github.android_app_bootstrap',
   //activity: 'com.github.android_app_bootstrap.activity.WelcomeActivity',
   app: path.join(__dirname, '..', 'app', `${platform}-app-bootstrap.zip`)
